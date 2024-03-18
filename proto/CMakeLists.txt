@@ -1,32 +1,21 @@
 set(PROTO_FILES
     actuators.proto
-    altimeter.proto
-    battery_state.proto
-    bezier_curve.proto
-    bezier_trajectory.proto
     can.proto
     header.proto
     imu.proto
     joy.proto
     led.proto
     led_array.proto
-    magnetic_field.proto
-    nav_sat_fix.proto
-    nav_sat_status.proto
-    odometry.proto
-    pixy_vector.proto
     point.proto
     pose.proto
     pose_with_covariance.proto
     quaternion.proto
-    safety.proto
     sim_clock.proto
     status.proto
     time.proto
     twist.proto
     twist_with_covariance.proto
     vector3.proto
-    wheel_odometry.proto
     )
 
 set(PROTO_SRCS)
