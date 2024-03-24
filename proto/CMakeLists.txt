@@ -10,6 +10,7 @@ set(PROTO_FILES
     pose.proto
     pose_with_covariance.proto
     quaternion.proto
+    road_curve_angle.proto
     sim_clock.proto
     status.proto
     time.proto
